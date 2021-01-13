@@ -19,6 +19,8 @@ public:
 		createShips();
 	}
 
+	enum { WATER = ' ', SHIP = '#' };
+
 private:
 	void createBoard(std::istream& in);
 	bool isBoardCorrect() const;
